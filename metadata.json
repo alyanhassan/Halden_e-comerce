@@ -1,0 +1,6 @@
+{
+  "name": "Halden - Everyday Basics",
+  "description": "Premium everyday basics clothing e-commerce demo featuring hoodies, shirts, pants, and trousers. Everyday, done properly.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

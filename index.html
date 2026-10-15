@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halden — Everyday Basics</title>
+    <meta name="description" content="Premium everyday basics clothing e-commerce demo featuring hoodies, shirts, pants, and trousers. Everyday, done properly." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:title" content="Halden — Everyday Basics" />
+    <meta property="og:description" content="Premium everyday basics clothing e-commerce demo featuring hoodies, shirts, pants, and trousers. Everyday, done properly." />
+    <meta property="og:image" content="https://images.pexels.com/photos/7945744/pexels-photo-7945744.jpeg?auto=compress&cs=tinysrgb&w=1600" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Halden — Everyday Basics" />
+    <meta name="twitter:description" content="Premium everyday basics clothing e-commerce demo featuring hoodies, shirts, pants, and trousers. Everyday, done properly." />
+    <meta name="twitter:image" content="https://images.pexels.com/photos/7945744/pexels-photo-7945744.jpeg?auto=compress&cs=tinysrgb&w=1600" />
+    <script>
+      (function() {
+        try {
+          var currentFetch = window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return currentFetch;
+            },
+            set: function(fn) {
+              currentFetch = fn;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {}
+
+        window.addEventListener('error', function(e) {
+          if (e && e.filename && e.filename.indexOf('chrome-extension://') !== -1) {
+            e.preventDefault();
+            e.stopPropagation();
+          }
+        }, true);
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Actor&family=Archivo+Black&family=Arvo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
